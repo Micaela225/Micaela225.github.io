@@ -1,0 +1,10 @@
+body{
+    background-color: beige;
+}
+h1, p{
+    background-color: deepskyblue;
+    color: black;
+}
+h2{
+    color: gray;
+}

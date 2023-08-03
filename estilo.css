@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #51d2d9;
+   
+}
+h1, h2, h3 {
+    color: rgb(146, 145, 145);
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(82, 209, 228) ;
+}
+
+
+
+
+header {
+    background-color:azure;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    
+    
+
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+
+#principio {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    
+   
+}
+
+.principio-con {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+#acerca {
+    padding: 40px 20px;
+    background-color: #e8f5f4;
+    
+}
+
+
+.acerca-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#proyectos {
+    padding: 40px 20px;
+    background-color: #f0f0e7;
+    background-image: url(juanjo-jaramillo-mZnx9429i94-unsplash\ \(1\).jpg);
+    
+}
+#proyecto, h3{
+    color: #c6c4c4;
+}
+
+
+.proyectos-con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.proyecto {
+    text-align: center;
+    padding: 20px;
+    background-color: #869c9c;
+    transition-duration: .5s;
+    
+    
+}
+.proyecto:hover{
+    transform: scale(1.2);
+    
+
+}
+
+.proyecto img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    
+}
+
+#contacto {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.contacto-con {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contacto-con form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contacto-con input,
+.contacto-con textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.contacto-con textarea {
+    resize: vertical;
+}
+
+.contacto-con input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    
+
+
+
+
